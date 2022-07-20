@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Employee Payroll Form</title>
+        <link rel="stylesheet" href="../CSS/my_home.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" />
+        <script type="text/javascript" src="../JavaScript/site_properties.js"></script>
+        <script type="text/javascript" src="../JavaScript/Home.js"></script>
+    </head>
+
+    <body>
+        <header class="header-content header">
+            <div class="logo-content" onclick="location.href='./EmployeePayroll.html'">
+                <img src="../Assets/images/logo.png" alt="Logo">
+                <div>
+                    <span class="emp-text">EMPLOYEE</span><br>
+                    <span class="emp-text emp-payroll">PAYROLL</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div class="header-content sub-main-content">
+                <div class="emp-detail-text">
+                    Employee Deatils <div class="emp-count">0</div>
+                </div>
+                <div onclick="location.href='./AddEmployee.html'" class="add-button">
+                    <div class="plus-icon">
+                        <img src="../Assets/icons/add-24px.svg" alt="Add User Logo">
+                    </div>
+                    <div>Add User</div>
+                </div>
+            </div>
+        </div>
+        <div class="table-main">
+            <table class="table" id="display">
+            </table>
+        </div>
+    </body>
+</html>
